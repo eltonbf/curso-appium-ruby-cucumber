@@ -3,6 +3,7 @@ Before do
   driver.manage.timeouts.implicit_wait = 10
 
   @nav = Navigator.new
+  @toster = Toaster.new
   @login = LoginScreen.new
 
   #Evento de clique no botão começar

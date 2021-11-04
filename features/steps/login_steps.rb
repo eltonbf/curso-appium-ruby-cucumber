@@ -11,5 +11,5 @@ end
                                                                               
 Então('devo ver a notificação: {string}') do |string|                         
    #log(get_source)
-   expect(@login.toast.text).to eql string
-end                                                                           
+   expect(@toster.toast.text).to eql string
+end                                                                            
